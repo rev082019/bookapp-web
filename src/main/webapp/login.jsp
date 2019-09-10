@@ -16,7 +16,7 @@
 <body>
 <h3>Login</h3>
 
-<form action="next.jsp" onsubmit="login()" >
+<form  action="listbooks.jsp">
 <label>Email:</label>
 <input type="email" name="email" id="email" placeholder="Enter Email" value="n@gmail.com" required autofocus />
 <br/>
@@ -25,5 +25,9 @@
 <br/>
 <button type="submit">Submit</button>
 </form>
+
+New User ?<a href="register.jsp">Register</a>
+<br/>
+<a href="index.jsp">Home</a>
 </body>
 </html>

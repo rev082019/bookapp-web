@@ -11,7 +11,12 @@
 </head>
 <body>
 
-	<h2>Welcome to Online Booking</h2>
+	<h2>Welcome to Online Book Shop</h2>
+	
+	<a href="login.jsp">Login</a> <br/>
+	<a href="register.jsp">Register</a> <br/>
+	<a href="listbooks.jsp">List Books</a> <br/>
+	<a href="vieworders.jsp">View Orders</a>
 
 </body>
 </html>

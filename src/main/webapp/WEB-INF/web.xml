@@ -16,6 +16,12 @@
   	<description></description>
   	<servlet-class>com.revature.bookapp.controller.RegisterServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>FrontController</servlet-name>
+  	<display-name>FrontController</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.bookapp.controller.FrontController</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>LoginServlet</servlet-name>
   	<url-pattern>/LoginServlet</url-pattern>
@@ -23,5 +29,9 @@
   <servlet-mapping>
   	<servlet-name>RegisterServlet</servlet-name>
   	<url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FrontController</servlet-name>
+  	<url-pattern>/FrontController</url-pattern>
   </servlet-mapping>
 </web-app>

@@ -16,7 +16,7 @@
 <body>
 <h3>Register</h3>
 
-<form action="next.jsp" onsubmit="register()" >
+<form >
 <label>Name:</label>
 <input type="text" name="name" id="name" placeholder="Enter name" value="Naresh" required autofocus />
 <br/>
@@ -27,6 +27,11 @@
 <input type="password" name="password" id="password" placeholder="Enter Password" value="pass123" required />
 <br/>
 <button type="submit">Submit</button>
+
+<br/>
+Existing User ? <a href="login.jsp">Login</a> <br/>
+
+<a href="index.jsp">Home</a>
 </form>
 </body>
 </html>
